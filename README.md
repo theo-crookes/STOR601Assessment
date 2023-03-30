@@ -57,6 +57,8 @@ Then use the following commands:
 
 ## More Information
 
+Here you can find more information about the convex hull: https://en.wikipedia.org/wiki/Convex_hull
+
 Here you can find more information about the Jarvis March algorithm: https://en.wikipedia.org/wiki/Gift_wrapping_algorithm
 
 Here you can find more information about the Jarvis March algorithm, that my python implementation took inspiration from: https://algorithmtutor.com/Computational-Geometry/Convex-Hull-Algorithms-Jarvis-s-March/

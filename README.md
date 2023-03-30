@@ -28,3 +28,13 @@ Then use the following commands:
 install_github(theo-crookes/STOR601Assessment)
 
 library(tcc)
+
+## More Information
+
+Here you can find more information about the Jarvis March algorithm: https://en.wikipedia.org/wiki/Gift_wrapping_algorithm
+
+Here you can find more information about the Jarvis March algorithm, that my python implementation took inspiration from: https://algorithmtutor.com/Computational-Geometry/Convex-Hull-Algorithms-Jarvis-s-March/
+
+Here you can find more information about the 5Rs in a presentation: https://prezi.com/view/UFn6tMCwgPK4YHf3VrlH/
+
+Here you can find more information about the 5Rs in a paper: https://www.frontiersin.org/articles/10.3389/fninf.2017.00069/full

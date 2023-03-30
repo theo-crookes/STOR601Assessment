@@ -17,17 +17,17 @@ This repository also contains a READ ME.Rd giving a more in depth description of
 
 To install the package, we can use devtools. Once opening R, ensure we have devtools installed:
 
-install.packages("devtools")
+> install.packages("devtools")
 
 Then get ready to use devtools: 
 
-library(devtools)
+> library(devtools)
 
 Then use the following commands: 
 
-install_github(theo-crookes/STOR601Assessment)
+> install_github(theo-crookes/STOR601Assessment)
 
-library(tcc)
+> library(tcc)
 
 ## More Information
 

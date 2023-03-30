@@ -33,7 +33,11 @@ The package contains a function **length_of_hull** which will compute the length
 
 ### maximumdist
 
+The package contains a function **maximumdist** determine the longest distance between any two points in a given data set. It takes an input as a list with elements (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>) so it can be used on the convex hull output of the jarvis march algorithm.  
+
 ### maximumdist_pair
+
+The package contains a function **maximumdist_pair** determine the pair of points with the longest distance between them in a data set of points. It takes an input as a list with elements (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>) so it can be used on the convex hull output of the jarvis march algorithm.
 
 ## How to Install the Package
 

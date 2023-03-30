@@ -17,13 +17,19 @@ This repository also contains a READ ME.Rd giving a more in depth description of
 
 ### jarvis_march
 
+The package contains a function **jarvis_march** which takes an input as a list with elements (x<sub>0</sub>,y<sub>0</sub>) which correspond to the points in the plane, then it will follow the jarvis march algorithm and output a list with elements (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>) which correspond to the line segments in the plane that form the convex hull of the input data set. For more information on the Jarvis March algorithm see the end of this document. 
+
 ### plothull
+
+The package contains a function **plothull** which will plot the convex_hull that is produced by the jarvis_march algorithm, along with all of the data points on the plot too. This This function takes two inputs, one input is a list with elements (x<sub>0</sub>,y<sub>0</sub>), the second is the convex hull of this data set (produced using the jarvis_march function) which is a list with elements (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>) which correspond to the line segments in the plane that form the convex hull. 
 
 ### in_hull
 
+The package contains a function **in_hull** which takes a list with elements (x<sub>0</sub>,y<sub>0</sub>) which correspond to the points in the plane, it also takes a list with elements (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>) which corresponds to the convex hull. Then the function will see whether a subset of the first list is in the hull return those points that are in the convex hull.  
+
 ### length_of_hull
 
-The package contains a function **length_of_hull** to compute the length of the convex hull. That is, the sum of the lengths of all the line segments which construct the hull. It takes an input of the form (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>)
+The package contains a function **length_of_hull** which will compute the length of the convex hull. That is, the sum of the lengths of all the line segments which form the hull. It takes an input as a list with elements (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>) which correspond to the line segments in the plane that form the convex hull. 
 
 ### maximumdist
 

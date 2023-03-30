@@ -13,6 +13,22 @@ This repository also contains two more jypn files, which are an implementation o
 
 This repository also contains a READ ME.Rd giving a more in depth description of the tcc package. 
 
+## tcc Package Functions
+
+### jarvis_march
+
+### plothull
+
+### in_hull
+
+### length_of_hull
+
+The package contains a function **length_of_hull** to compute the length of the convex hull. That is, the sum of the lengths of all the line segments which construct the hull. It takes an input of the form (x<sub>0</sub>,y<sub>0</sub>,x<sub>1</sub>,y<sub>1</sub>)
+
+### maximumdist
+
+### maximumdist_pair
+
 ## How to Install the Package
 
 To install the package, we can use devtools. Once opening R, ensure we have devtools installed:

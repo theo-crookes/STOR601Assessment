@@ -1,0 +1,11 @@
+Package: tcc
+Type: Package
+Title: A Jarvis March Package for R using Rcpp
+Version: 1.0
+Date: 2023-03-30
+Author: Theo Crookes
+Maintainer: Theo Crookes <theoccrookes@email.com>
+Description: A package containing a jarvis march function (to find the convex hull of a set of data points), a function (length_of_hull) to find the length of the convex hull, a function (maximumdist_pair) to find the pair of points on the hull that are connected on the hull and are furthest apart, and a function (maximumdist) to find the distance between the pair of points on the hull that are connected and furthest apart. It also contains a function in_hull to determine what subset of a given set of points are in the convex hull. It contains a function plothull, this is an R function which plots the data points and outlines the convex hull. All functions apart from plothull use C++ to improve their computational efficiency. NOTE: The package 'ggplot2' is required to use the plot function. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.10)
+LinkingTo: Rcpp

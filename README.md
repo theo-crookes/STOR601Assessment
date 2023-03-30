@@ -11,4 +11,4 @@ This repository also contains two more jypn files, which are an implementation o
 
 This repository also contains a READ ME.Rd giving a more in depth description of the tcc package. 
 
-This repository also contains a READ ME.md explaining how to install the package.
+This repository also contains a READ ME.txt explaining how to install the package.
